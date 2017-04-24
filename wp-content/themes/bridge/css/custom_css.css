@@ -1,0 +1,50 @@
+
+
+.blog_holder.blog_single {
+    margin-bottom: 100px;
+}
+
+.footer_bottom .footer_text_title {
+    display: block;
+    color: #ffffff;
+}
+
+a.pp_next:after {
+    left: auto!important;
+}
+
+.content.content_top_margin {
+    margin-top: 0px !important;
+}
+
+input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-date, textarea.wpcf7-form-control.wpcf7-textarea, select.wpcf7-form-control.wpcf7-select, input.wpcf7-form-control.wpcf7-quiz {
+    border-bottom: 1px solid #eaeaea;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  color: #a4b2bf;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #a4b2bf;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+.q_elements_item {
+    background-size: cover;
+}
+
